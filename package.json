@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "movie-catalog-node-api",
   "version": "1.0.0",
   "description": "",

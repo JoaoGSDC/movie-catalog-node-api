@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./src/serve.ts",
+    "start": "node serve.js",
     "dev": "nodemon --experimental-fetch",
+    "build": "tsc",
     "test": "jest"
   },
   "keywords": [],

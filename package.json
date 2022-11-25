@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/serve.ts",
+    "start": "node --experimental-modules src/serve.ts",
     "dev": "nodemon --experimental-fetch",
     "test": "jest"
   },

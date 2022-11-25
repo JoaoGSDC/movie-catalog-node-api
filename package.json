@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --experimental-fetch",
+    "start": "node src/serve.ts",
+    "dev": "nodemon --experimental-fetch",
     "test": "jest"
   },
   "keywords": [],

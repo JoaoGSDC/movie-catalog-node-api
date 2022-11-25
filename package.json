@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node serve.js",
+    "start": "node build/serve.js",
     "dev": "nodemon --experimental-fetch",
     "build": "tsc",
     "test": "jest"

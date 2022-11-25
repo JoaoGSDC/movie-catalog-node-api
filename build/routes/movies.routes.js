@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.moviesRoutes = void 0;
+const express_1 = require("express");
+const GetMoviesController_1 = require("../modules/movies/useCases/getMovies/GetMoviesController");
+const InsertMoviesController_1 = require("../modules/movies/useCases/insertMovies/InsertMoviesController");
+const getMoviesController = new GetMoviesController_1.GetMoviesController();
+const insertMoviesController = new InsertMoviesController_1.InsertMoviesController();
+const moviesRoutes = (0, express_1.Router)();
+exports.moviesRoutes = moviesRoutes;
+moviesRoutes.get('/', getMoviesController.handle);
+moviesRoutes.post('/', insertMoviesController.handle);

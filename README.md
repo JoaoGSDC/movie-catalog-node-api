@@ -32,3 +32,11 @@ Projeto Movie Catalog API - Node JS
 ## Comandos
 - Para realizar o build: npm run build
 - Para rodar os testes: npm run test
+
+# Sobre a API
+- As rotas disponíveis estão no /movies<br />
+-- GET: /<br />
+--- Responsável por trazer os filmes de forma páginada<br />
+--- Ele trás 10 filmes por vez<br /><br />
+-- POST: /<br />
+--- Realiza a atualização do banco de dados dos primeiros 50 filmes retirados da Studio Ghibli films API
